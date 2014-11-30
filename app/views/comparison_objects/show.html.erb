@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @comparison_object.name %>
+</p>
+
+<p>
+  <strong>Icon:</strong>
+  <%= @comparison_object.icon %>
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @comparison_object.color %>
+</p>
+
+<%= link_to 'Edit', edit_comparison_object_path(@comparison_object) %> |
+<%= link_to 'Back', comparison_objects_path %>

@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Comparison Objects</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Icon</th>
+      <th>Color</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @comparison_objects.each do |comparison_object| %>
+      <tr>
+        <td><%= comparison_object.name %></td>
+        <td><%= comparison_object.icon %></td>
+        <td><%= comparison_object.color %></td>
+        <td><%= link_to 'Show', comparison_object %></td>
+        <td><%= link_to 'Edit', edit_comparison_object_path(comparison_object) %></td>
+        <td><%= link_to 'Destroy', comparison_object, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Comparison object', new_comparison_object_path %>

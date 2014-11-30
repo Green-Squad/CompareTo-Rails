@@ -1,0 +1,29 @@
+<%= form_for(@metric_object) do |f| %>
+  <% if @metric_object.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@metric_object.errors.count, "error") %> prohibited this metric_object from being saved:</h2>
+
+      <ul>
+      <% @metric_object.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :value %><br>
+    <%= f.number_field :value %>
+  </div>
+  <div class="field">
+    <%= f.label :metric_id %><br>
+    <%= f.text_field :metric_id %>
+  </div>
+  <div class="field">
+    <%= f.label :comparison_object_id %><br>
+    <%= f.text_field :comparison_object_id %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Value:</strong>
+  <%= @metric_object.value %>
+</p>
+
+<p>
+  <strong>Metric:</strong>
+  <%= @metric_object.metric %>
+</p>
+
+<p>
+  <strong>Comparison object:</strong>
+  <%= @metric_object.comparison_object %>
+</p>
+
+<%= link_to 'Edit', edit_metric_object_path(@metric_object) %> |
+<%= link_to 'Back', metric_objects_path %>

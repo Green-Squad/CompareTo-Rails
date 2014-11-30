@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Metric Objects</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Value</th>
+      <th>Metric</th>
+      <th>Comparison object</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @metric_objects.each do |metric_object| %>
+      <tr>
+        <td><%= metric_object.value %></td>
+        <td><%= metric_object.metric %></td>
+        <td><%= metric_object.comparison_object %></td>
+        <td><%= link_to 'Show', metric_object %></td>
+        <td><%= link_to 'Edit', edit_metric_object_path(metric_object) %></td>
+        <td><%= link_to 'Destroy', metric_object, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Metric object', new_metric_object_path %>
