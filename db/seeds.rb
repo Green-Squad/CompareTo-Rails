@@ -31,7 +31,7 @@ ComparisonObject.create(id: 11, name: 'Earth', icon: 'globe', color: 'blue')
 # Seeding metric_object speed
 MetricObject.create(metric_id: 1, comparison_object_id: 1, value: 99)           # Metric 1 = Speed, Object 1 = Bald Eagle
 MetricObject.create(metric_id: 1, comparison_object_id: 2, value: 614)          # Metric 1 = Speed, Object 2 = Boeing 747
-MetricObject.create(metric_id: 1, comparison_object_id: 3, value: 11184700000)  # Metric 1 = Speed, Object 3 = Superman
+MetricObject.create(metric_id: 1, comparison_object_id: 3, value: 670616629)  # Metric 1 = Speed, Object 3 = Superman
 MetricObject.create(metric_id: 1, comparison_object_id: 5, value: 17500)        # Metric 1 = Speed, Object 5 = Space Shuttle
 MetricObject.create(metric_id: 1, comparison_object_id: 6, value: 131)          # Metric 1 = Speed, Object 6 = Futbol
 MetricObject.create(metric_id: 1, comparison_object_id: 7, value: 55)           # Metric 1 = Speed, Object 7 = School Bus
