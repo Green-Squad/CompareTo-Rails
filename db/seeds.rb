@@ -31,7 +31,7 @@ ComparisonObject.create(id: 11, name: 'Earth', icon: 'globe', color: 'blue')
 # Seeding metric_object speed
 MetricObject.create(metric_id: 1, comparison_object_id: 1, value: 99)           # Metric 1 = Speed, Object 1 = Bald Eagle
 MetricObject.create(metric_id: 1, comparison_object_id: 2, value: 614)          # Metric 1 = Speed, Object 2 = Boeing 747
-MetricObject.create(metric_id: 1, comparison_object_id: 3, value: 670616629)  # Metric 1 = Speed, Object 3 = Superman
+MetricObject.create(metric_id: 1, comparison_object_id: 3, value: 670616629)                 # Metric 1 = Speed, Object 3 = Superman
 MetricObject.create(metric_id: 1, comparison_object_id: 5, value: 17500)        # Metric 1 = Speed, Object 5 = Space Shuttle
 MetricObject.create(metric_id: 1, comparison_object_id: 6, value: 131)          # Metric 1 = Speed, Object 6 = Futbol
 MetricObject.create(metric_id: 1, comparison_object_id: 7, value: 55)           # Metric 1 = Speed, Object 7 = School Bus
@@ -48,13 +48,13 @@ MetricObject.create(metric_id: 2, comparison_object_id: 7, value: 36000)        
 MetricObject.create(metric_id: 2, comparison_object_id: 8, value: 48000)        # Metric 2 = Weight, Object 8 = F-16 Fighting Falcon
 
 # Seeding metric_object size
-MetricObject.create(metric_id: 3, comparison_object_id: 1, value: 7.08)         # Metric 3 = Size, Object 1 = Bald Eagle
-MetricObject.create(metric_id: 3, comparison_object_id: 2, value: 231.1)        # Metric 3 = Size, Object 2 = Boeing 747
-MetricObject.create(metric_id: 3, comparison_object_id: 3, value: 6.25)         # Metric 3 = Size, Object 3 = Superman
+MetricObject.create(metric_id: 3, comparison_object_id: 1, value: 7)            # Metric 3 = Size, Object 1 = Bald Eagle
+MetricObject.create(metric_id: 3, comparison_object_id: 2, value: 231)          # Metric 3 = Size, Object 2 = Boeing 747
+MetricObject.create(metric_id: 3, comparison_object_id: 3, value: 6)            # Metric 3 = Size, Object 3 = Superman
 MetricObject.create(metric_id: 3, comparison_object_id: 4, value: 1792)         # Metric 3 = Size, Object 4 = One World Trade Center
-MetricObject.create(metric_id: 3, comparison_object_id: 5, value: 184.2)        # Metric 3 = Size, Object 5 = Space Shuttle
-MetricObject.create(metric_id: 3, comparison_object_id: 6, value: 0.72)         # Metric 3 = Size, Object 6 = Futball
+MetricObject.create(metric_id: 3, comparison_object_id: 5, value: 184)          # Metric 3 = Size, Object 5 = Space Shuttle
+MetricObject.create(metric_id: 3, comparison_object_id: 6, value: 1)            # Metric 3 = Size, Object 6 = Futball
 MetricObject.create(metric_id: 3, comparison_object_id: 7, value: 45)           # Metric 3 = Size, Object 7 = School Bus
-MetricObject.create(metric_id: 3, comparison_object_id: 8, value: 49.4)         # Metric 3 = Size, Object 8 = F-16 Fighting Falcon
+MetricObject.create(metric_id: 3, comparison_object_id: 8, value: 49)           # Metric 3 = Size, Object 8 = F-16 Fighting Falcon
 MetricObject.create(metric_id: 3, comparison_object_id: 9, value: 11400900)     # Metric 3 = Size, Object 9 = The Moon 
 MetricObject.create(metric_id: 3, comparison_object_id: 11, value: 41851392)    # Metric 3 = Size, Object 11 = Earth 
